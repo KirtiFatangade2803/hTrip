@@ -1,0 +1,28 @@
+.bgacco {
+  background-color: white;
+}
+.accodiv {
+  height: 550px;
+  background-image: url("accomod.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4%;
+}
+
+.accohead {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+.accopara {
+  padding-top: 1%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: #014c6c;
+  font-style: italic;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+

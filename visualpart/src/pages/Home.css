@@ -1,0 +1,178 @@
+.bckimg {
+  width: 1320px;
+  height: 550px;
+  margin: 1%;
+  padding: 2%;
+  background-image: url(karl.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainhead {
+  margin-top: 6%;
+  margin-left: 26%;
+  margin-bottom: 2%;
+  color: #ffffff;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: -5px 5px 3px rgb(23, 23, 23);
+  letter-spacing: 4px;
+  text-align: justify;
+}
+.headpara {
+  font-family: cursive;
+  color: #ffffff;
+  margin-left: 34%;
+  margin-bottom: 5%;
+  font-size: 66px;
+  font-style: normal;
+  font-weight: bolder;
+  text-shadow: -5px -5px 13px rgb(23, 23, 23);
+  letter-spacing: 8px;
+}
+.learn {
+  margin-left: 42%;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgb(14, 164, 245);
+  padding: 12px 48px;
+  border: 2px solid transparent;
+  border-radius: 150px;
+  color: #ffffff;
+  font-weight: 400;
+  box-shadow: 2px 10px 8px #424242;
+}
+.learn:hover {
+  background-color: #ffffff;
+  border-color: rgb(14, 164, 245);
+  color: rgb(14, 164, 245);
+  box-shadow: 12px 15px 18px #131313;
+}
+.colums {
+  width: 80%;
+  margin-left: 10%;
+  padding: 5%;
+}
+.colh1{
+  color: #131313;
+  text-transform: capitalize;
+  padding-bottom: 5%;
+}
+.col {
+  display: inline-block;
+  width: 280px;
+  height: 400px;
+  margin: 1%;
+  cursor: pointer;
+  border: 2px solid rgb(202, 202, 202);
+}
+.colimg {
+  width: 280px;
+  height: 240px;
+}
+.coldiv {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-top: -4%;
+  margin-left: 7%;
+  padding: 1.5%;
+  text-align: center;
+  border-radius: 180px;
+  background-color: #f6f6f6;
+  box-shadow: 1px 3px 10px 2px #666666;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.subcolimg{
+  width: 40px;
+  height: 40px;
+  border-radius: 180px;
+}
+.colpara{
+  color: #131313;
+  margin-top: 13%;
+  padding: 3%;
+  font-weight: bold;
+}
+.wlcm {
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1%;
+}
+.hmenu {
+  margin-left: 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-style: italic;
+  text-shadow:1px 2px 3px rgb(89, 54, 54) ;
+}
+
+.buttons {
+  padding: 1%;
+}
+.bt{
+  display: inline-block;
+  margin: 2%;
+  padding-top: 12%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 270px;
+  height: 330px;
+  border-radius: 10px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #ffffffff;
+  font-weight: bolder;
+  box-shadow: 2px 5px 8px #a0a0a0;
+  text-shadow:-6px 14px 16px rgb(0, 0, 0);
+}
+.bt:hover {
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+#bt1{
+  background-image: url(dstn.jpeg);
+  padding-left: 2%;
+  font-weight: bolder;
+}
+#bt2{
+  background-image: url(pck2.jpg);
+  padding-left: 4%;
+}
+#bt3{
+  background-image: url(acomdtn.jpg);
+  letter-spacing: 2px;
+  padding-left: 1%;
+}
+#bt4{
+  background-image: url(offers3.jpg);
+  letter-spacing: 2px;
+  padding-left: 7%;
+}
+.plantrip{
+  width: 150px;
+  height: 60px;
+  margin-left: 40%;
+  padding: 18px 40px;
+  border-radius: 50px;
+  background-color: rgb(207, 74, 89);
+  border: 2px solid transparent;
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-decoration: none;
+}
+.plantrip:hover{
+  background-color: rgb(255, 255, 255);
+  border-color:rgb(207, 74, 89) ;
+  color: rgb(207, 74, 89);
+}

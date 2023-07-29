@@ -1,0 +1,32 @@
+.mdiv {
+    margin: 2%;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  }
+  .mdiv1 {
+    flex: 4;
+    padding: 3%;
+  }
+  .mdesthead {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 60px;
+    color: #5d9de1;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    padding: 2%;
+  }
+  .mpara {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 18px;
+    color: #000000;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding:4% ;
+  }
+  .mdiv2 {
+    flex: 6;
+    margin: 5%;
+    height: 500px;
+  }

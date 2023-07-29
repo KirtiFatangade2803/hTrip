@@ -1,0 +1,25 @@
+/* Menu page */
+
+
+
+.make {
+  margin-top: 5%;
+  margin-left: 43%;
+  font-size: 21px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgb(181, 204, 68);
+  padding: 16px 40px;
+  border: 2px solid transparent;
+  border-radius: 150px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-shadow: 2px 6px 8px #424242;
+}
+.make:hover {
+  background-color: #ffffff;
+  border-color: rgb(181, 204, 68);
+  color: rgb(181, 204, 68);
+  box-shadow: 2px 10px 18px #727272;
+}

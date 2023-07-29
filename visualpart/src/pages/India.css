@@ -1,0 +1,97 @@
+.bgmenu2 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(255, 255, 255)
+  );
+}
+.hdiv {
+  margin: 3%;
+  height: 550px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.hdiv1 {
+  flex: 4;
+  padding: 4%;
+}
+
+.hdiv2 {
+  margin: 2%;
+  flex: 6;
+}
+.desthead {
+  margin: 4%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 60px;
+  color: #e19d5d;
+  font-style: italic;
+  font-weight: bolder;
+  padding-top: 4%;
+  letter-spacing: 10px;
+}
+.para {
+  margin: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: #000000;
+  font-style: italic;
+  font-weight: bolder;
+  padding-top: 4%;
+  letter-spacing: 3px;
+}
+.himg {
+  flex: 6;
+}
+.mainspan {
+  margin-left: 14%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-style: normal;
+}
+.group {
+  background-color: #ffffff;
+  width: 1200px;
+  margin-left: 10%;
+  padding: 3%;
+}
+.elements,
+.img {
+  background-color: white;
+  display: inline-block;
+  margin: 2%;
+}
+.elements:hover {
+  transform: scale(1.1);
+}
+.h4 {
+  color: black;
+  text-align: center;
+}
+.h4:hover {
+  color: rgb(28, 140, 8);
+}
+.img:hover {
+  opacity: 60%;
+}
+.proceed {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: rgb(245, 14, 14);
+  padding: 12px 48px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-left: 45%;
+  margin-right: 50%;
+}
+.proceed:hover {
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(245, 14, 14);
+  color: rgb(245, 14, 14);
+}

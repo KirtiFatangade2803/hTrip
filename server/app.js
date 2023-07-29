@@ -8,7 +8,7 @@ dotenv.config({path:'./config.env'});
 // const  User = require('./userSchema');
 
 //storing port number
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 
 //database connection
 require('./conn');

@@ -1,5 +1,6 @@
-/* header section */
 
+
+/* header section */
 nav {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
@@ -329,92 +330,4 @@ label {
   border-color: rgb(240, 9, 25);
   color: rgb(255, 0, 8);
 }
-
-/* Error page */
-
-#notfound {
-  background-color: #ffffff;
-  position: relative;
-  height: 100vh;
-}
-#notfound .notfound {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.notfound {
-  max-width: 920px;
-  width: 100%;
-  line-height: 1.4;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.notfound .notfound404 {
-  position: absolute;
-  height: 100px;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%);
-  z-index: -1;
-}
-.notfound .notfound404 .err {
-  color: #ececec;
-  font-weight: 900;
-  font-size: 276px;
-  margin: 0px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.notfound .error404 {
-  font-size: 46px;
-  color: #000000;
-  font-weight: 900;
-  text-transform: uppercase;
-  margin: 0px;
-}
-
-.notfound p {
-  font-size: 16px;
-  color: #000000;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-top: 15px;
-}
-
-.notfound a {
-  font-size: 14px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: blue;
-  display: inline-block;
-  padding: 16px 38px;
-  border: 2px solid transparent;
-  border-radius: 40px;
-  color: #ffffff;
-  font-weight: 400;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
-}
-
-.notfound a:hover {
-  background-color: #ffffff;
-  border-color: blue;
-  color: blue;
-}
-@media only screen and( max-width: 480px) {
-  .notfound .notfound404 .err {
-    font-size: 162px;
-  }
-  .notfound .error404 {
-    font-size: 26px;
-  }
-}
-
 

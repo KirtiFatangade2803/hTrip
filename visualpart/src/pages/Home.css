@@ -116,7 +116,7 @@
 }
 .bt{
   display: inline-block;
-  margin: 2%;
+  margin: 1.5%;
   padding-top: 12%;
   background-repeat: no-repeat;
   background-size:cover;
@@ -170,6 +170,7 @@
   text-transform: capitalize;
   cursor: pointer;
   text-decoration: none;
+  box-shadow: 2px 6px 8px #424242;
 }
 .plantrip:hover{
   background-color: rgb(255, 255, 255);

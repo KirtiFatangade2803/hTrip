@@ -19,7 +19,7 @@ import { NavLink } from 'react-router-dom';
       <>
       <div className="acolums">
             <h1 className="acolh1">
-              <font style={{ fontSize: 60 }}>C</font>ottage That Blends Comfort
+              <font style={{ fontSize: 60 }}>C</font>ottages That Blends Comfort
             </h1>
             <div className="acol">
               <img src={A1} className="acolimg" alt="This is an wildlife" />

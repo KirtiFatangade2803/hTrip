@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "./Destn.css";
 import India from "./India.js";
-// import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
  class Destn extends Component {
   render() {
@@ -10,6 +10,7 @@ import India from "./India.js";
       <div>
         <India/>
       </div>
+      <NavLink to="/" className="dmake">Back</NavLink>
       </>
     )
   }

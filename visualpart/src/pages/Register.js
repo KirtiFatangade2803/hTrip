@@ -25,7 +25,7 @@ const Register = () => {
     e.preventDefault();
     const { fname, lname, phone, email, pass, cpass } = user;
 
-    const res = await fetch("https://happytripserver.onrender.com/register", {
+    const res = await fetch("/register", {
       method: "POST",
       headers: {
         "Content-type": "application/json"

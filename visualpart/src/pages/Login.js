@@ -32,7 +32,7 @@ const Login = () => {
     } else {
       window.alert("Welcome...!! ");
       console.log("login successfull");
-      navigate("/menu");
+      navigate("/");
     }
   };
 

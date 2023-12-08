@@ -67,7 +67,7 @@ class Package extends Component {
                 <button className="butnpck">Know More</button>
               </div>
               <br/>
-                <NavLink to='/' className="bckp">Back</NavLink>
+                <NavLink to='/home' className="bckp">Back</NavLink>
               
             </div>
           </div>

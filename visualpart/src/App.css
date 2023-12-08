@@ -43,7 +43,7 @@ li,
   font-size: 22px;
 }
 .l1 {
-  margin-left: 28%;
+  margin-left: 38%;
 }
 
 li {
@@ -159,7 +159,7 @@ label {
   border: 2px solid #ffffff;
 }
 #login {
-  margin-left: 20%;
+  margin-left: 13%;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -176,6 +176,15 @@ label {
   background-color: #ffffff;
   border-color: rgb(255, 0, 4);
   color: rgb(255, 0, 21);
+}
+.register{
+  color: rgb(255, 0, 21);
+  padding: 20px;
+  font-size: 16px;
+}
+
+.register:hover{
+  color:gray
 }
 
 /* sighup-page */

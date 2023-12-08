@@ -237,7 +237,7 @@ import { NavLink } from 'react-router-dom';
             </div>
           </div>
 
-<NavLink to="/" className="back">Back</NavLink>
+<NavLink to="/home" className="back">Back</NavLink>
       </>
     )
   }

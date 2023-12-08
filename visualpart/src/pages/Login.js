@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import logpic from "./login.jpg";
 
 const Login = () => {
@@ -32,7 +32,7 @@ const Login = () => {
     } else {
       window.alert("Welcome...!! ");
       console.log("login successfull");
-      navigate("/");
+      navigate("/home");
     }
   };
 
@@ -75,7 +75,13 @@ const Login = () => {
               value="Log in"
               onClick={loginUser}
             />
-          </form>
+
+          <NavLink to="/register" className="register">
+            New User?
+          </NavLink>
+</form>
+
+
         </div>
       </div>
     </>

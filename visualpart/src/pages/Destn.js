@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
       <div>
         <India/>
       </div>
-      <NavLink to="/" className="dmake">Back</NavLink>
+      <NavLink to="/home" className="dmake">Back</NavLink>
       </>
     )
   }

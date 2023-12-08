@@ -106,7 +106,7 @@ class About extends Component {
                   Get connected with us Now.!
                 </div>
                 <br />
-                <NavLink to="/contact" className="reg2">
+                <NavLink to="/register" className="reg2">
                   Register Now
                 </NavLink>
               </div>

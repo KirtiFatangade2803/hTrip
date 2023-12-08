@@ -154,7 +154,7 @@ class Offer extends Component {
 
           
         </div>
-        <NavLink to="/" className="returno">
+        <NavLink to="/home" className="returno">
             Back
           </NavLink>
       </>
